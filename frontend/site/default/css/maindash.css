@@ -1,0 +1,303 @@
+﻿.mypagecontent {
+  background-color:  #fff !important;
+}
+.myborder {
+  border: 10px solid #edf2f6;
+  padding: 10px 0 3px !important;
+}
+.myborderrow {
+  border-top: 10px solid #edf2f6;
+  padding: 0 5px;
+}
+.mymd6 {
+  padding-left: 3px !important;
+  padding-right: 3px !important;
+}
+.myrowpadding {
+  padding: 0px 3px;
+}
+.gt_metrix h2 {
+  margin-left: 3px;
+  margin-top: 0 !important;
+}
+.gtm_title {
+  color: #408dc5;
+}
+.gt_metrix .gt_link {
+  border-bottom: 2px solid #eee;
+  color: #73726e;
+  display: block;
+  font-size: 24px;
+  padding-bottom: 6px;
+}
+.gtm_title {
+  color: #408dc5;
+  font-weight: bold;
+  margin-bottom: 0 !important;
+  margin-top: 0 !important;
+}
+.gt_metrix .img-responsive {
+  display: inline;
+}
+.myrow {
+	margin-top: 20px;
+}
+.mymd6 {
+  padding-left: 3px !important;
+}
+.block-sec h3 {
+  color: #3c9adc;
+  font-weight: bold;
+  margin: 5px 0 !important;
+  text-transform: capitalize !important;
+}
+.left_pane, .right_pane {
+  background: rgba(0, 0, 0, 0) linear-gradient(to bottom, #fefefe 0%, #eaeceb 100%) repeat scroll 0 0;
+  border-top: 2px solid #ddd !important;
+  border: 2px solid #ddd !important;
+  padding: 0;
+}
+.gt_metrix .left_pane .pane {
+  width: 49%;
+}
+.gt_metrix .pane {
+  border-right: 1px solid #e7e1e1;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 9px 9px 15px;
+  text-align: center;
+}
+.block-sec h5 {
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.speed_stat {
+  color: #27ab4a;
+  font-size: 26px;
+  font-weight: 600;
+  text-align: center !important;
+  line-height: 25px;
+}
+.pane:last-child {
+  border-right: 0 none !important;
+}
+.mytitlestwo {
+  margin-top: 0;
+}
+.myestimate {
+  float: left;
+  font-size: 36px;
+}
+.myprogbar {
+  border: 10px solid #cccccc;
+  height: 25px !important;
+  margin: 5px 0 0;
+}
+.mytriangle-down { 
+width: 0; 
+height: 0; 
+border-left: 50px solid transparent; 
+border-right: 50px solid transparent; 
+border-top: 100px solid red; 
+}
+.myupordown {
+  background-color: red;
+  border-radius: 20px;
+  color: #fff;
+  float: right;
+  font-size: 14px;
+  font-weight: bold;
+  height: 20px;
+  line-height: 10px;
+  margin: 17px 0 0;
+  padding: 5px 10px;
+  text-align: left;
+  width: 50px;
+}
+.myupordown2 {
+  background-color: #27AB4A;
+  border-radius: 20px;
+  color: #fff;
+  float: right;
+  font-size: 14px;
+  font-weight: bold;
+  height: 20px;
+  line-height: 10px;
+  margin: 17px 0 0;
+  padding: 5px 10px;
+  text-align: left;
+  width: 50px;
+}
+.mytriangle-down {
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 10px solid #fff;
+  height: 0;
+  position: absolute;
+  right:24px;
+  width: 0;
+}
+.myupordown3 {
+  background-color: #27ab4a;
+  border-radius: 20px;
+  color: #fff;
+  float: right;
+  font-size: 14px;
+  font-weight: bold;
+  height: 20px;
+  line-height: 10px;
+  margin: 0;
+  padding: 5px 8px;
+  text-align: left;
+  width: 45px;
+}
+.mytriangle-down22 {
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 10px solid #fff;
+  height: 0;
+  position: absolute;
+  right: 32px;
+  width: 0;
+}
+ .mytriangle-up { 
+ border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 10px solid #fff;
+  height: 0;
+  position: absolute;
+  right: 24px;
+  width: 0;
+ }
+.mypr{
+ margin-right: 10px !important;
+}
+.mysquare {
+  background: #319DB5;
+  float: left;
+  height: 15px;
+  margin: 3px 2px 0 0;
+  width: 15px;
+}
+.mysquare2 {
+  background: #CCCCCC;
+  float: left;
+  height: 15px;
+  margin: 3px 2px 0 0;
+  width: 15px;
+}
+.mysquare3 {
+  background: #4DB53C;
+  float: left;
+  height: 15px;
+  margin: 3px 2px 0 0;
+  width: 15px;
+}
+.myestimate3 {
+  font-size: 13px;
+  font-weight: bold;
+}
+.organic {
+  font-size: 12px;
+  font-weight: bold;
+}
+.mynopadding {
+  padding-left: 0;
+}
+.somemargin {
+  margin-bottom: 16px !important;
+  margin-top: 6px !important;
+}
+.somemargin2 {
+  margin-bottom: 13px !important;
+  margin-top: 13px !important;
+}
+.c100 {
+  margin: 0 !important;
+}
+.resultHeader {
+  background: #373b3e none repeat scroll 0 0;
+  border-radius: 2px;
+  color: #fff;
+  font-family: inherit;
+  height: 361px !important;
+  max-height: inherit !important;
+  min-height: auto !important;
+  padding: 0 15px;
+}
+.resultHeader2 {
+  background: #373b3e none repeat scroll 0 0;
+  border-radius: 2px;
+  color: #fff;
+  font-family: inherit;
+  height: 200px !important;
+  max-height: inherit !important;
+  min-height: auto !important;
+  padding: 15px;
+}
+#uptime_stat.panel {
+  background: #e8ecee none repeat scroll 0 0;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  margin: 15px auto;
+  padding: 0 15px 15px;
+}
+#uptime_stat > header {
+  background: #1496bb none repeat scroll 0 0;
+  border-radius: 2px 2px 0 0;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 -15px 15px;
+  padding: 4px 15px;
+}
+#uptime_stat.panel .content {
+  border-left: 3px solid #a2c171;
+  margin: 0 auto;
+  padding: 0 10px;
+  text-align: center;
+  width: 80%;
+}
+#uptime_stat header i {
+  margin: 0 5px 0 0;
+}
+#uptime_stat .content > h4 {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+#uptime_stat .content > p {
+  text-align: center;
+}
+.mytabs i {
+  margin-left: 10px;
+}
+.mytabs > .nav.nav-tabs > li > a {
+  background-color: #f1f1f1;
+  border-bottom: 1px solid #dfdfdf;
+  border-right: 1px solid #dfdfdf;
+  border-top: 1px solid #dfdfdf;
+  padding: 3px 15px !important;
+}
+.mytabs > .nav.nav-tabs > li.active > a {
+	background-color: #fff;
+	border-bottom: 1px solid #fff !important;
+}
+.mytabs > .tab-content {
+  background-color: #fff;
+}
+.mynumber {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+.mycenter {
+  padding: 0 5px !important;
+}
+.mycenter p {
+  text-align: center !important;
+  color: #666 !important;
+font-size: 15px;
+letter-spacing: 1px;
+margin-bottom: 0;
+}

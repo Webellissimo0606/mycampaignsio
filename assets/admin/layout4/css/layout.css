@@ -1,0 +1,45 @@
+.sidebar .badge-rounded{border:none}
+.sidebar-mailbox.sidebar .sidebar-inner .nav-sidebar > li.active > a span.badge,.sidebar .sidebar-inner .nav-sidebar .badge-rounded{position:absolute;right:6px;top:6px}
+.sidebar-mailbox.sidebar .sidebar-inner .nav-sidebar > li.active > a{text-align:center}
+.sidebar-collapsed .topbar .header-left .topnav{float:left;height:50px;margin:0}
+.sidebar-mailbox.sidebar .sidebar-inner .nav-sidebar > li.active > a i{display:block;float:none!important;font-size:14px;line-height:40px;margin:-10px auto -7px;width:40px}
+.builder .builder-toggle,.builder:before{top:30%}
+.topbar .header-left .topnav .mmenu .dropdown.mmenu-fw .dropdown-menu{left:-140px}
+.boxed section .main-content{height:100%}
+#page-builder { top: 115px; left: 0;}
+.sidebar-mailbox.sidebar .sidebar-inner .nav-sidebar > li > a span:not(.badge) { display: block;}
+body.boxed {height: auto}
+.mailbox.sidebar-top.theme-sdtl.color-default .nav-sidebar > li.nav-hover > a {  background-color: #3095AC !important;}
+.boxed.fixed-topbar section .main-content .topbar { position: fixed}
+.boxed.fixed-topbar.sidebar-show > section{ overflow: hidden;}
+@media (min-width: 1600px) {
+  .dashboard.boxed .col-clock, .dashboard.boxed .col-financial-stocks {display: none !important;}
+  .dashboard.boxed .col-visitors {width: 41.6666666%;}
+  .dashboard.boxed .col-small-stats {width: 50%;}
+  .dashboard.boxed .widget-stock .company-info {display: none}
+}
+@media screen and (min-width: 1024px) {
+  .fixed-sidebar.sidebar-top .sidebar {height: auto !important;}
+  .sidebar .sidebar-inner .nav-sidebar { margin-bottom: 0;}
+  .sidebar .nav > li + li { margin-bottom: 0;}
+}
+@media screen and (max-width: 1024px){
+  .sidebar-show .topbar {width: 100%;}
+  body.boxed {height: 100%}
+  .sidebar-top .main-content .page-content { top: 0 !important;}
+  .boxed.sidebar-top section .main-content .topbar { margin-left: 0;}
+  .boxed.sidebar-top section .sidebar {  width: 240px;}
+  .main-content .page-content.page-calendar { overflow: visible;min-width: 700px;}
+}
+@media screen and (max-width: 500px){
+    .coming-soon .content h1 {  font-size: 43px; line-height: 45px;text-align: center;}
+    .coming-soon .content h5 {  font-size: 20px;  line-height: 22px;text-align: center;}
+    .coming-soon .content p {text-align: center;}
+    .coming-soon #countdown { font-size: 25px; line-height: 30px; position: relative; right:auto;left:auto;top: 20px;text-align: center;}
+    .coming-soon .social-nav {  left: 50%;margin-left: -128px;}
+    .coming-soon #logo { position: relative;  width: auto;margin:auto;margin-top: 180px;left:0;text-align: center;}
+    .coming-soon .content { top: 0;}
+    .coming-soon .main-nav { bottom: auto;  left: auto;  position: relative;text-align: center;}
+    .coming-soon .main-nav ul{ text-align: center;}
+    .coming-soon .main-nav ul li:first-child { border-left: none;}
+}

@@ -1,0 +1,7 @@
+{
+    "require": {
+        "ivkos/pushbullet": "3.*",
+        "visualappeal/piwik-php-api": "1.2.*",
+        "automattic/woocommerce": "^2.0"
+    }
+}

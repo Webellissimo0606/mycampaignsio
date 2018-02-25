@@ -1,0 +1,1 @@
+<?php heatmap_form( $domain['id'] ); ?>

@@ -1,0 +1,25 @@
+input[type="text"],
+input[type="password"],
+select,
+textarea {
+    max-width: 100%;
+    color: #fff;
+    border-width: 0;
+    background-color: rgba(0, 0, 0, 0.18);
+}
+select option{
+	color:#fff;
+	background-color: rgba(0, 0, 0, 0.18);
+}
+
+input[type="text"]:disabled,
+input[type="password"]:disabled,
+select:disabled,
+textarea:disabled {
+    color: rgba(255, 255, 255, 0.6);
+    cursor: not-allowed;
+}
+
+textarea {
+    font-family: inherit;
+}

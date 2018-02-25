@@ -1,0 +1,7 @@
+var sets = [
+         {"sets": [0], "label": "shinepics.co.uk", "size": 153},
+         {"sets": [1], "label": "competitor1.com", "size": 176},
+         
+         {"sets": [0, 1], "size": 39},
+
+         ];

@@ -1,0 +1,492 @@
+﻿.mytopbarbg1 {
+  background: #5dbfd5 none repeat scroll 0 0;
+}
+.mytopbarbg2 {
+  background: #cfdae0 none repeat scroll 0 0;
+}
+.mytopbarbg3 {
+	background: #2B2E33;
+}
+.mypanelheader h3 {
+  color: #fff;
+  letter-spacing: 1px;
+  margin: 0 !important;
+}
+.mypanelheader .control-btn {
+  display:  none !important;
+}
+.main-content .page-content .panel .control-btn {
+  display: none !important;
+}
+.mypanelcontent {
+  padding: 0 !important;
+}
+.mytabsli .active a {
+  background-color: #319db5 !important;
+  border-left: 3px solid #26ff00 !important;
+  color: #fff !important;
+}
+.mytabsli li {
+	margin-bottom: 0px !important;
+}
+.mytabsli li a {
+  border-radius: 0px !important;
+  padding: 10px 30px !important;
+  margin-left: 0px !important;
+}
+.mytabsli li a:hover {
+   background-color: #5DBFD5 !important;
+}
+.mytabcontent {
+  padding: 0px !important;
+}
+.mytabcontent .panel-content {
+  padding: 0 !important;
+}
+.mytabcontent .nav-primary {
+  background: #fff none repeat scroll 0 0;
+}
+.mytabcontent .nav-primary .active a {
+
+}
+.mytabcontent .nav-primary li {
+	margin-bottom: 0px !important;
+}
+.mytabcontent .nav-primary li a {
+  border-radius: 0px !important;
+  padding: 10px 30px !important;
+  margin-left: 0px !important;
+}
+.mytabcontent .nav-primary li a:hover {
+   background-color: #5DBFD5 !important;
+   color: #fff !important;
+}
+.mytabcontent .badge {
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 10px;
+  margin-left: 10px;
+  vertical-align: text-top !important;
+}
+.mytabcontenti {
+  color: #c92828 !important;
+}
+.mydifftable .force-table-responsive {
+  overflow-x:  hidden !important;
+}
+.mydifftable #DataTables_Table_0_filter > label {
+  margin-right:  0px !important;
+}
+.mydifftable thead {
+  background-color: #5dbfd5 !important;
+  color: #fff !important;
+}
+.mydifftable th {
+  text-align: center !important;
+}
+.mydifftable td {
+  text-align:  center !important;
+}
+.mydifftable td:first-child {
+  width: 10% !important;
+}
+.mydifftable td:nth-child(3) {
+  width:  13% !important;
+}
+.mydifftable th {
+  text-align: center !important;
+  font-size: 12px !important;
+  font-weight: bold !important;
+}
+
+.mywidgetbars .title {
+  font-size: 13px;
+  font-weight: bold !important;
+}
+.mywidgetbars .number {
+  font-size: 13px !important;
+  font-weight: bold !important;
+  letter-spacing: 1px !important;
+}
+.mywidgetbars i {
+  background-color: #21e000;
+  border-radius: 5px;
+  color: #fff !important;
+  padding: 2px;
+}
+.mysecondgly {
+  background-color: #e5e242 !important;
+}
+.mythirdgly {
+  background-color: #EA1C1C !important;
+}
+.myfourgly {
+  background-color: #EAA21C !important;
+}
+.mycontent2 {
+  max-height: 190px !important;
+  padding: 10px 0 40px !important;
+}
+
+.upcontent {
+  background: #5dbfd5 none repeat scroll 0 0;
+  border-left: 3px solid #319db5;
+  margin-bottom: 10px !important;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 23px;
+  padding: 5px 10px;
+  text-align: center;
+  width: 80%;
+}
+.upcontent > h4 {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.upcontent > p {
+  text-align: center;
+  color: #fff;
+}
+
+.myrowpadding .img-responsive {
+  display: inline;
+}
+.myrowpadding h2 {
+  margin-left: 3px;
+  margin-top: 0 !important;
+}
+.gtm_title {
+  color: #408dc5;
+  font-weight: bold;
+  margin-bottom: 0 !important;
+  margin-top: 0 !important;
+}
+.myrowpadding .gt_link {
+  border-bottom: 2px solid #eee;
+  color: #73726e;
+  display: block;
+  font-size: 24px;
+  padding-bottom: 6px;
+}
+.mymd4 {
+  border-top: 1px solid #eaeaea;
+  margin-top: 10px;
+  padding: 0 15px !important;
+}
+.upcontent2 {
+  background: #e8e8e8 none repeat scroll 0 0;
+  border-left: 3px solid #319db5;
+  color: #4db53c;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px 10px;
+  text-align: center;
+  width: 100%;
+}
+.upcontent2 > h4 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.upcontent2 > p {
+  color: #000;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.upcontent3 {
+  background: #e8e8e8 none repeat scroll 0 0;
+  border-left: 3px solid #319db5;
+  color: #4db53c;
+  margin-bottom: 10px !important;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  padding: 5px 10px;
+  text-align: center;
+  width: 100%;
+}
+.upcontent3 > h4 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.upcontent3 > p {
+  color: #000;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.myrowpadding2 {
+  padding-top: 5px !important;
+}
+.myimg {
+  height: 143px;
+}
+.gtbutton {
+  margin:  17px 0px 16px 0px;
+}
+.myminheight {
+  height: 277px;
+}
+.myminheight2 {
+  height: 590px;
+}
+.mydifftabletd td:first-child {
+  width: 5% !important;
+}
+.mydifftabletd td:nth-child(3) {
+  width: 30% !important;
+}
+.mysettingbutton {
+  background-color: #9ec436 !important;
+  border-radius: 0px 5px 5px 0px !important;
+  padding: 5px 10px !important;
+}
+.mysettingbutton i {
+  padding: 0px !important;
+}
+.mybackupbutton {
+  background-color: #e5a254 !important;
+  border-radius: 5px 0px 0px 5px !important;
+  padding: 5px 10px !important;
+}
+.mybackupbutton i {
+  padding: 0px !important;
+}
+.mytabcontentbackup {
+  background-color: #fff !important;
+  min-height: 700px !important;
+  padding: 20px !important;
+}
+
+.table-responsive {
+  overflow-x: hidden !important;
+}
+.mycreatetask {
+  background-color: #9ec436 !important;
+  color: #fff !important;
+  float: right;
+  font-size: 13px !important;
+  margin-bottom: 0 !important;
+  margin-top: 5px;
+}
+.mycreatetask i {
+  margin-right: 5px !important;
+}
+
+.featured_btn_sm {
+  background: #fff none repeat scroll 0 0;
+  border-left: 3px solid #319DB5 !important;
+  border-top: 1px solid #ccc !important;
+  border-bottom: 1px solid #ccc !important;
+  border-right: 1px solid #ccc !important;
+  color: #fff;
+  margin: 10px 0 0 !important;
+  padding: 10px;
+}
+.myoptioned {
+  display: inline-block !important;
+  float: left;
+  margin-bottom: 0 !important;
+  width: 81%;
+}
+.mymonitortext {
+  color: #606060;
+  font-size: 16px;
+  font-weight: 700;
+}
+.myinput_pane {
+  float: right;
+  margin: 0 auto;
+  width: 19%;
+}
+.myinput_pane .switch {
+  margin: 0 !important;
+}
+.control-label {
+  padding:  0px 10px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.mybackcolor {
+  background-color: #e8e8e8;
+  min-height: 424px;
+  padding: 10px 0 !important;
+}
+.mybackcolor .form-group {
+  margin-bottom: 0 !important;
+}
+.mycontrol-label {
+  padding:  0px 10px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.required {
+  color: #ea1c1c;
+  font-size: 18px;
+}
+.mydomain {
+  background-color: #fff !important;
+  border: 1px solid #57bcd1;
+  height: 50px;
+}
+.mykeyword {
+  margin: 10px 0 0;
+  min-height: 200px;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #57bcd1;
+}
+.mynomargintop {
+  margin-top: 0 !important;
+}
+.mytown {
+  margin-top: 10px !important;
+  width: 80%;
+}
+.mygtbutton {
+  background-color: #4fb845 !important;
+  font-size: 28px;
+  font-weight: bold;
+  height: 49px !important;
+  margin: 11px 0 0 10px !important;
+  padding: 0 !important;
+  width: 17%;
+}
+.sf-nav li {
+  margin-right: 34px !important;
+}
+.mynumbercountup {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.mypanelsecond {
+  margin-bottom: 1px !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0) !important;
+}
+.mypanelsecond p {
+  margin-bottom:  0.5px !important;
+}
+.mypanelsecond .widget-info {
+  padding: 7px 20px !important;
+}
+.mypanelsecondone {
+  border-bottom: 1px solid #E5E5E5 !important;
+}
+.mypractise {
+  background-color: #e5e5e5;
+  border: 1px solid #85B0E5;
+  padding: 10px;
+  margin-bottom:  15px;
+}
+.mypractise .col-md-10 {
+  border-left: 1px solid #4584d1;
+  padding-left: 20px !important;
+}
+.cat_category {
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #4584D1;
+}
+.cat_score {
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+   color: #18A689;
+}
+.cat_name {
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #4584D1;
+}
+.cat_advice p {
+  font-size: 14px;
+  font-weight: bold;
+}
+.mypractise .col-md-2 {
+  padding-top: 3.4%;
+  text-align: center;
+}
+.mypanelcontent .badge {
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 10px;
+  margin-left: 10px;
+  vertical-align: text-top !important;
+}
+
+#domainlist > li {
+  border-bottom: 1px solid #E5E5E5 !important;
+  min-height: 55px;
+  padding: 10px 5px;
+}
+#domainlist p {
+  display: inline-block;
+  float: left;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 5px 0 0;
+  width: 56%;
+}
+#domainlist .btn-group {
+  float: right;
+  margin-right: 0 !important;
+}
+.mydomainbutton1 {
+  background-color: #9ec436 !important;
+  cursor: default;
+  padding: 2px 6px !important;
+}
+.mydomainbutton2 {
+  background-color: #828282 !important;
+  padding: 2px 6px !important;
+  cursor:default;
+}
+.mydomainbutton3 {
+  background-color: #5DBFD5 !important;
+  padding: 2px 6px !important;
+}
+.mydomainnametitles > h2 {
+  font-size: 22px;
+  margin: 10px 10px 0 15px;
+}
+.mydomainnametitles h2 i {
+  margin-right: 5px;
+}
+.greenname {
+  color: #9ec436;
+  font-size: 18px;
+  font-weight: normal;
+  margin-left: 5px;
+}
+.mydomainnametitles > p {
+  margin:  0px 10px 10px 17px;
+}
+table.dataTable thead .sorting_asc::before {
+  color: #383838;
+  float: right;
+  font-family: fontAwesome;
+}
+.mydomaintable thead .sorting_asc::before {
+  content: none !important;
+}
+.keyfound {
+  color: #9ec436;
+  font-weight: bold;
+}
+.keynotfound {
+  color: #E12B26;
+  font-weight: bold;
+}
+#domainlist {
+  overflow-y: scroll;
+}
+.mydomainadd {
+  background-color: #5DBFD5 !important;
+  color: #fff !important;
+  margin: -21px 0 0 232px;
+  position: absolute;
+}

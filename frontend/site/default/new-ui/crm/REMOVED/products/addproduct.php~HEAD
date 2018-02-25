@@ -1,0 +1,121 @@
+<?php
+include dirname(__FILE__) . '/../common/top.php';?>
+
+    <style type="text/css">
+        .error{
+            color: #ec3939;
+            padding: 5px
+        }
+    </style>
+
+<div class="content-row">
+    <div class="content-column w-100 w-two-thirds-l">
+        <div class="content-column-main">
+            <div class="title">
+                <div class="left-pos">
+                    <h3>ADD PRODUCT</h3>
+                </div>
+            </div>
+            <div class="content-column-inner">
+                <form action="<?php echo site_url(); ?>addproduct" method="POST" class="edit-profile-form cf" id="addproduct" style="width: 100%;">
+                    <div class="field">
+                        <label for="">TYPE</label> 
+                        <select name="type" id="type">
+                        	<option value="1"> Service </option>
+                        	<option value="2"> Product </option>
+                        </select>
+                    </div>
+                    <div class="field">
+                        <label for="">CODE:</label>
+                        <input type="text" name="code" id="code" placeholder="Code" value="">
+                    </div>
+                    
+                    <div class="field ">
+                        <label for="">DESCRIPTION:</label>
+                        ​<textarea name="description" id="description" placeholder="Description" rows="5" cols="170"></textarea>
+                    </div> 
+                    <div class="field">
+                        <label for="">NAME:</label>
+                        <input type="text" name="name" id="name" placeholder="Name" value="">
+                    </div>   
+                    <br>
+                    <!-- <hr class="w-100"> -->
+                    <div class="field w-100">
+                        <input type="submit" name="saveproduct" value="SAVE PRODUCT"  class="btn-color no-underline pointer ba f7 fw5 lh-solid pv3 ph4 br1">
+                       <!--  <button type="submit"  class="btn-color no-underline pointer ba f7 fw5 lh-solid pv3 ph4 br1" id="submit"><span class="white">SAVE CLIENT</span>
+                        </button> -->
+                        <a href="<?php echo site_url(); ?>listproduct" title="" class="fr btn-lines no-underline pointer ba f7 fw5 lh-solid pv3 ph4 br1"><span class="">CANCEL</span></a>
+                    </div>    
+                    <br>
+<div class="content-row">
+    <div class="content-column-main">
+        <div class="title">
+                <div class="left-pos">
+                    <h3> PRICES </h3>
+                </div>
+        </div>
+        <div class="content-column-inner">
+            <?php foreach ($currencies as $key => $currency): ?>
+                <div class="field" style="width: 50%">
+                    <label for=""><?php echo $currency['currencycode'] ?></label>
+                    <input type="text" name="currency[<?php echo $currency['id'] ?>]" placeholder="" value="">
+                </div>
+            <?php endforeach ?>
+        </div>    
+    </div>
+</div>   
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+     
+<!-- 
+ -->
+<script src="<?php echo base_url(); ?>frontend/site/default/new-ui/assets/js/jquery.validate.min.js"></script> 
+<script>
+   $(document).ready(function () {
+
+    $("#addproduct").validate({
+    rules: {
+        product_code: {
+          required: true
+        },
+         prefix: {
+          required: true
+        },
+         format: {
+          required: true
+        },
+        baseconvrate: {
+          required: true,
+          number: true
+        }
+      },
+   messages: {
+            product_code: {
+                required: "This field is required"
+            },
+             prefix: {
+                required: "This field is required"
+            },
+             format: {
+                required: "This field is required"
+            },
+             baseconvrate: {
+                required: "This field is required",
+                number: "Please enter valid number"
+            }
+        },
+    submitHandler: function(form) { 
+        form.submit()
+    }
+});
+});
+
+</script>
+
+
+<?php
+include dirname(__FILE__) . '/../common/bottom.php';?>

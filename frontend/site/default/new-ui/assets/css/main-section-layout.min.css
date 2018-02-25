@@ -1,0 +1,15 @@
+#main {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 17rem;
+  width: auto;
+  min-height:100vh;
+  -moz-box-shadow: 0 -3px 6px 0 rgba(6, 6, 6, 0.5);
+  -webkit-box-shadow: 0 -3px 6px 0 rgba(6, 6, 6, 0.5);
+  box-shadow: 0 -3px 6px 0 rgba(6, 6, 6, 0.5);
+}
+
+.collapse-sidebar #main {
+  left: 72px;
+}
